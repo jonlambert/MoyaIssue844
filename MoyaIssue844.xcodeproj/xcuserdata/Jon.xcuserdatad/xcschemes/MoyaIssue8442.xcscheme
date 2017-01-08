@@ -28,26 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FCE26E2C1E1FDEB300C5AADF"
-               BuildableName = "MoyaIssue844Tests.xctest"
-               BlueprintName = "MoyaIssue844Tests"
-               ReferencedContainer = "container:MoyaIssue844.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FCE26E371E1FDEB300C5AADF"
-               BuildableName = "MoyaIssue844UITests.xctest"
-               BlueprintName = "MoyaIssue844UITests"
-               ReferencedContainer = "container:MoyaIssue844.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

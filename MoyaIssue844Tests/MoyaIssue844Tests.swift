@@ -7,6 +7,7 @@
 //
 
 import XCTest
+import Moya
 @testable import MoyaIssue844
 
 class MoyaIssue844Tests: XCTestCase {
@@ -22,8 +23,16 @@ class MoyaIssue844Tests: XCTestCase {
     }
     
     func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        let expectation = self.expectation(description: "Request timed out")
+        
+        let provider = RxMoyaProvider<API>()
+        provider
+            .request(.test)
+            .debug()
+            .subscribe(onNext: { response in
+                expectation.fulfill()
+            })
+        waitForExpectations(timeout: 10.0, handler: nil)
     }
     
     func testPerformanceExample() {
