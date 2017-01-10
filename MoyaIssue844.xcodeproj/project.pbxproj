@@ -11,13 +11,13 @@
 		479E6CE325F2D85899C28807 /* Pods_MoyaIssue844Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D55423C896150EA7E86A6E0 /* Pods_MoyaIssue844Tests.framework */; };
 		8B4CCA6016AAE2CBA8E88E83 /* Pods_MoyaIssue844UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7795E02389689AF7E335556 /* Pods_MoyaIssue844UITests.framework */; };
 		FCE26E1D1E1FDEB300C5AADF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE26E1C1E1FDEB300C5AADF /* AppDelegate.swift */; };
-		FCE26E1F1E1FDEB300C5AADF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE26E1E1E1FDEB300C5AADF /* ViewController.swift */; };
 		FCE26E221E1FDEB300C5AADF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCE26E201E1FDEB300C5AADF /* Main.storyboard */; };
 		FCE26E241E1FDEB300C5AADF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCE26E231E1FDEB300C5AADF /* Assets.xcassets */; };
 		FCE26E271E1FDEB300C5AADF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCE26E251E1FDEB300C5AADF /* LaunchScreen.storyboard */; };
 		FCE26E321E1FDEB300C5AADF /* MoyaIssue844Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE26E311E1FDEB300C5AADF /* MoyaIssue844Tests.swift */; };
 		FCE26E3D1E1FDEB300C5AADF /* MoyaIssue844UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE26E3C1E1FDEB300C5AADF /* MoyaIssue844UITests.swift */; };
 		FCE26E4B1E1FEAEB00C5AADF /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE26E4A1E1FEAEB00C5AADF /* API.swift */; };
+		FCEA5BA31E2542CC002F323B /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEA5BA21E2542CC002F323B /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +49,6 @@
 		FA904A40D65BC8D70DDE1ECF /* Pods-MoyaIssue844Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaIssue844Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoyaIssue844Tests/Pods-MoyaIssue844Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FCE26E191E1FDEB300C5AADF /* MoyaIssue844.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoyaIssue844.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE26E1C1E1FDEB300C5AADF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FCE26E1E1E1FDEB300C5AADF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FCE26E211E1FDEB300C5AADF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FCE26E231E1FDEB300C5AADF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCE26E261E1FDEB300C5AADF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,6 +60,7 @@
 		FCE26E3C1E1FDEB300C5AADF /* MoyaIssue844UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaIssue844UITests.swift; sourceTree = "<group>"; };
 		FCE26E3E1E1FDEB300C5AADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCE26E4A1E1FEAEB00C5AADF /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		FCEA5BA21E2542CC002F323B /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,12 +140,12 @@
 			isa = PBXGroup;
 			children = (
 				FCE26E1C1E1FDEB300C5AADF /* AppDelegate.swift */,
-				FCE26E1E1E1FDEB300C5AADF /* ViewController.swift */,
 				FCE26E201E1FDEB300C5AADF /* Main.storyboard */,
 				FCE26E231E1FDEB300C5AADF /* Assets.xcassets */,
 				FCE26E251E1FDEB300C5AADF /* LaunchScreen.storyboard */,
 				FCE26E281E1FDEB300C5AADF /* Info.plist */,
 				FCE26E4A1E1FEAEB00C5AADF /* API.swift */,
+				FCEA5BA21E2542CC002F323B /* WelcomeViewController.swift */,
 			);
 			path = MoyaIssue844;
 			sourceTree = "<group>";
@@ -452,7 +452,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCE26E1F1E1FDEB300C5AADF /* ViewController.swift in Sources */,
+				FCEA5BA31E2542CC002F323B /* WelcomeViewController.swift in Sources */,
 				FCE26E4B1E1FEAEB00C5AADF /* API.swift in Sources */,
 				FCE26E1D1E1FDEB300C5AADF /* AppDelegate.swift in Sources */,
 			);

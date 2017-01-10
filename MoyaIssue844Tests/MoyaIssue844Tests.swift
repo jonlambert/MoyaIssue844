@@ -23,16 +23,7 @@ class MoyaIssue844Tests: XCTestCase {
     }
     
     func testExample() {
-        let expectation = self.expectation(description: "Request timed out")
         
-        let provider = RxMoyaProvider<API>()
-        provider
-            .request(.test)
-            .debug()
-            .subscribe(onNext: { response in
-                expectation.fulfill()
-            })
-        waitForExpectations(timeout: 10.0, handler: nil)
     }
     
     func testPerformanceExample() {

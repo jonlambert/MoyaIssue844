@@ -1,41 +1,38 @@
-//
-//  API.swift
-//  MoyaIssue844
-//
-//  Created by Jon Lambert on 06/01/2017.
-//  Copyright © 2017 Evada. All rights reserved.
-//
-
-import UIKit
+import Foundation
 import Moya
 
 enum API {
-    case test
+    case ping
 }
 
 extension API: TargetType {
     var baseURL: URL {
-        return URL(string: "http://requestb.in")!
+        return URL(string: "https://hookb.in/Z6mo35ag")!
     }
     
     var path: String {
-        return "/1absdrt1"
+        return ""
     }
     
     var method: Moya.Method {
-        return .patch
+        return .get
     }
     
     var parameters: [String: Any]? {
         return [
-            "param": "test"
+            "foo": "bar"
         ]
     }
     
     var sampleData: Data {
-        return "Hello world".data(using: .utf8)!
+        return "Sample data".data(using: .utf8)!
     }
+    
     var task: Task {
         return .request
+    }
+    
+    var validate: Bool {
+        return false
     }
 }
